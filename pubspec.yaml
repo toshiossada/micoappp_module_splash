@@ -12,9 +12,13 @@ dependencies:
   flutter:
     sdk: flutter
   commons:
-    path: "../commons"    
+    git:
+      url: https://github.com/toshiossada/microapp_commons.git
+      ref: v1.0.0  
   commons_dependencies:
-    path: "../commons_dependencies"
+    git:
+      url: https://github.com/toshiossada/microapp_commons_dependencies.git
+      ref: v1.0.0
 
 
 dev_dependencies:
